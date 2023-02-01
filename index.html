@@ -17,7 +17,11 @@
         <ul class="navigation-list navigation-user" >
           <li>
             <a class="navigation-link" href="#">Войти</a>
+          </li>
+          <li>
             <a class="navigation-link" href="#">Сравнить</a>
+          </li>
+          <li>
             <a class="navigation-link" href="#">Корзина</a>
           </li>
         </ul>
@@ -25,16 +29,16 @@
       <nav class="main-navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <button class="navigation-button">Каталог товаров</button>
+            <a class="navigation-link" href="catalog.html">Каталог товаров</a>
           </li>
           <li class="navigation-item">
-            <button class="navigation-button">Доставка</button>
+            <a class="navigation-link" href="#">Доставка</a>
           </li>
           <li class="navigation-item">
-            <button class="navigation-button">Гарантия</button>
+            <a class="navigation-link" href="#">Гарантия</a>
           </li>
           <li class="navigation-item">
-            <button class="navigation-button">Контакты</button>
+            <a class="navigation-link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -44,41 +48,51 @@
       <section class="popular-goods">
         <h2 class="visually-hidden">Популярные товары</h2>
 
-        <img src="#" class="quadrocopter" alt="Квадрокоптер">
-        <p>Порхает как бабочка, жалит как пчела!</p>
-        <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-        <a href="#" class="more-information">Подробнее</a>
+        <div>
+          <img src="#" class="quadrocopter" alt="Квадрокоптер">
+          <p>Порхает как бабочка, жалит как пчела!</p>
+          <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+          <a href="#" class="more-information">Подробнее</a>
           <b>800 м</b>
           <span>Дальность полета</span>
           <b>50 м</b>
           <span>Радиус поражения</span>
-
+        </div>
+        <div>
           <img src="#" class="fitness-bracelet" alt="Фитнес-браслет">
-        <p>Худеем правильно!</p>
-        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-        <a href="#" class="more-information">Подробнее</a>
+          <p>Худеем правильно!</p>
+          <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+          <a href="#" class="more-information">Подробнее</a>
           <b>48 часов</b>
           <span>Без подзарядки</span>
-
+        </div>
+        <div>
           <img src="#" class="selfie-stick" alt="Селфи палка">
-        <p>Делай селфи, как Бен Стиллер!</p>
-        <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
-        <a href="#" class="more-information">Подробнее</a>
+          <p>Делай селфи, как Бен Стиллер!</p>
+          <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
+          <a href="#" class="more-information">Подробнее</a>
           <b>8,5 м</b>
           <span>Длина палки</span>
           <b>5 кг</b>
           <span>Вес палки</span>
           <b>Карбон</b>
           <span>Материал</span>
+        </div>
       </section>
       <section class="main-page-catalog-menu">
         <ul class="main-page-catalog-menu-list">
-          <li class="main-page-catalog-menu-item"><img src="#">Виртуальная реальность</li>
-          <li class="main-page-catalog-menu-item"><img src="#">Моноподы для селфи</li>
-          <li class="main-page-catalog-menu-item"><img src="#">Экшн-камеры</li>
-          <li class="main-page-catalog-menu-item"><img src="#">Фитнес-браслеты</li>
-          <li class="main-page-catalog-menu-item"><img src="#">Умные часы</li>
-          <li class="main-page-catalog-menu-item"><img src="#">Квадрокоптеры</li>
+          <li class="main-page-catalog-menu-item">
+            <img src="#">Виртуальная реальность</li>
+          <li class="main-page-catalog-menu-item">
+            <img src="#">Моноподы для селфи</li>
+          <li class="main-page-catalog-menu-item">
+            <img src="#">Экшн-камеры</li>
+          <li class="main-page-catalog-menu-item">
+            <img src="#">Фитнес-браслеты</li>
+          <li class="main-page-catalog-menu-item">
+            <img src="#">Умные часы</li>
+          <li class="main-page-catalog-menu-item">
+            <img src="#">Квадрокоптеры</li>
         </ul>
       </section>
       <section class="advantages">
@@ -115,10 +129,9 @@
         </ul>
         <a class="more-about-us" href="#">Подробнее о нас</a>
       </section>
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <h2 class="contact-title">Контакты</h2>
-        <p class="contact-text">Вы можете забрать товар сами, заехав в наш офис.
-          Заодно сможете проверить работоспособность покупки. </p>
+        <p class="contact-text">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки. </p>
         <h3 class="contacts-subtitle">Интернет-магазин «Девайс»</h3>
         <address>
           <p class="contacts-adress">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
@@ -133,8 +146,7 @@
       </section>
       <section class="distribute">
         <h2 class="distribute-title">Подпишитесь на рассылку</h2>
-        <p class="distribute-text">Еженедельный дайджест с обзорами новинок,
-          длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.
+        <p class="distribute-text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.
         </p>
         <form action="https://echo.htmlacademy.ru/" method="get">
         <input type="email" name="distribute" class="distribute" placeholder="Ваш email">
@@ -152,13 +164,13 @@
       </address>
       <ul class="footer-navigation-list">
         <li class="navigation-item">
-          <button class="navigation-button">Доставка</button>
+          <a class="navigation-link">Доставка</a>
         </li>
         <li class="navigation-item">
-          <button class="navigation-button">Гарантия</button>
+          <a class="navigation-link">Гарантия</a>
         </li>
         <li class="navigation-item">
-          <button class="navigation-button">Контакты</button>
+          <a class="navigation-link" href="#contacts">Контакты</a>
         </li>
       </ul>
       <section class="footer-social">
