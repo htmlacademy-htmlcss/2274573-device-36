@@ -30,6 +30,17 @@ body {
   background-color: #ffffff;
 }
 
+.main-navigation {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+.link {
+  text-decoration: none;
+}
 .main-footer {
   background: #444444;
 }
