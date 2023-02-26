@@ -54,15 +54,17 @@
             <a class="link breadcrumbs-link" href="index.html">Главная</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="link breadcrumbs-link" href="#">Каталог</a>
+            <a class="link breadcrumbs-link" href="#">Каталог товаров</a>
           </li>
           <li class="breadcrumbs-item">
             <a class="link breadcrumbs-link">Моноподы для селфи</a>
           </li>
         </ul>
         </header>
+      <div class="gray-block-with-goods">
       <section class="catalog-products">
         <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+        <p class="select-control-title">Фильтр:</p>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Цвет</legend>
@@ -110,12 +112,14 @@
           </fieldset>
           <button class="button" type="submit">Показать</button>
         </form>
+        <p class="select-control-title">Сортировка</p>
         <select class="select-control aria-label=Сортировка">
           <option value="popular">Популярные</option>
           <option value="cheap">Дешёвые</option>
           <option value="expensive">Дорогие</option>
         </select>
 
+        <div class="white-block-with-goods">
         <ul class="product-list">
           <li>
             <a class="link product-card-link" href="">
@@ -174,24 +178,26 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
+      </div>
     </main>
     <footer class="main-footer">
       <img src="images/footer-logo.png" width="145" height="36" alt="Логотип device">
       <address>
-        <p class="contacts-adress">Санкт-Петербург, набережная
+        <p class="footer-contacts-adress">Санкт-Петербург, набережная
           реки Карповки, 5, литера П.</p>
-          <a class="contacts-phone" href="tel:+78128121212">+7(812) 812-12-12</a>
+          <a class="footer-contacts-phone" href="tel:+78128121212">Тел.: +7(812) 812-12-12</a>
       </address>
       <ul class="footer-navigation-list">
         <li class="navigation-item">
-          <a class="link navigation-link">Доставка</a>
+          <a class="link footer-navigation-link">Доставка</a>
         </li>
         <li class="navigation-item">
-          <a class="link navigation-link">Гарантия</a>
+          <a class="link footer-navigation-link">Гарантия</a>
         </li>
         <li class="navigation-item">
-          <a class="link navigation-link">Контакты</a>
+          <a class="link footer-navigation-link">Контакты</a>
         </li>
       </ul>
       <section class="footer-social">
